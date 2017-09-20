@@ -171,5 +171,53 @@ public class Tester {
         return multiply(n,n);//recycle use of method multiply
     }
 
-
+	//Ex1
+    static void checkStudentGrade(String studentName, int grade){
+        String msg="Student "+studentName;
+        if(grade>55){//
+            if(grade>90){//
+                msg+=" excelled";
+            }else{//
+                msg+=" passed";
+            }
+        }else{
+            msg+=" failed";
+        }
+        System.out.println(msg);
+    }
+    //Ex2
+    static int biggestFrom(int[]nums){
+        int biggest=nums[0];//local variable
+        for(int i=1;i<nums.length;i++){
+            if(biggest<nums[i])biggest=nums[i];
+        }
+        return biggest;
+    }
+    //Ex3
+    static int smallestFrom(int[]nums){
+        int smallest=nums[0];//local variable
+        for(int i=1;i<nums.length;i++){
+            if(smallest>nums[i])smallest=nums[i];
+        }
+        return smallest;
+    }
+    //Ex4
+    static double avg(int [] nums){
+        double sum=0.0;//sum of all ints
+        for(int i=0;i<nums.length;i++){
+            sum+=nums[i];
+        }
+        return sum/nums.length;//sum/length == avg
+    }
+    //Ex5
+    //3->[1,3,6]
+    //2->1,3
+    //4->1,3,6,10
+    static int [] triNums(int count){
+        int [] triNums = new int[count];
+        for(int n=0;n<count;n++){
+            triNums[n]=n*(n+1)/2;
+        }
+        return triNums;
+    }
 }
