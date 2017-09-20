@@ -47,8 +47,6 @@ public class Tester {
         }
         /*/
 
-
-
         try {
             if(true){
                 throw new GrootException("Groot is awesome");
