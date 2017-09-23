@@ -1,4 +1,4 @@
-package gof.adapter;
+package gof.creational.adapter;
 
 class WallReceiver {
 

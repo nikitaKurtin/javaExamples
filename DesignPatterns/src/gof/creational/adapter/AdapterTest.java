@@ -1,4 +1,4 @@
-package gof.adapter;
+package gof.creational.adapter;
 
 public class AdapterTest {
     public static void main(String[] args) {
