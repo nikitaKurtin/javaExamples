@@ -1,4 +1,4 @@
-package gof.creational.Decorator_gun;
+package gof.structural.decorator;
 
 public class GunTester {
     public static void main(String[] args) {

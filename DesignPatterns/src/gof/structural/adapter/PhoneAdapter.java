@@ -1,4 +1,4 @@
-package gof.creational.adapter;
+package gof.structural.adapter;
 
 public class PhoneAdapter implements Chargeable220 {
     private Chargeable3 charger3;

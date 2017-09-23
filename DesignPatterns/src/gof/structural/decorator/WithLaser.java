@@ -1,9 +1,9 @@
-package gof.creational.Decorator_gun;
+package gof.structural.decorator;
 
-public class WithSilencer extends Gun {
+public class WithLaser extends Gun {
     private Gun gun;
 
-    public WithSilencer(Gun gun) {
+    WithLaser(Gun gun) {
         this.gun = gun;
     }
 
@@ -14,16 +14,16 @@ public class WithSilencer extends Gun {
 
     @Override
     public double getPrecision() {
-        return gun.getPrecision();
+        return gun.getPrecision() + 5;
     }
 
     @Override
     public double getWeight() {
-        return gun.getWeight() + 2.75;
+        return gun.getWeight() + 2;
     }
 
     @Override
     public double getFirePower() {
-        return gun.getFirePower() - 1.5;
+        return gun.getFirePower();
     }
 }

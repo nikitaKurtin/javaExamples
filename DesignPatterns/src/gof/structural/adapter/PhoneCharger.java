@@ -1,4 +1,4 @@
-package gof.creational.adapter;
+package gof.structural.adapter;
 
 public class PhoneCharger implements Chargeable3 {
     @Override

@@ -1,4 +1,4 @@
-package gof.creational.Decorator_gun;
+package gof.structural.decorator;
 
 public abstract class Gun {
 
