@@ -1,6 +1,6 @@
-package gof.behavioral.observer_property_changed.observable;
+package gof.behavioral.observer.observable;
 
-import gof.behavioral.observer_property_changed.observers.Observer;
+import gof.behavioral.observer.observers.Observer;
 
 import java.util.ArrayList;
 

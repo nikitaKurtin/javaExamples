@@ -1,4 +1,4 @@
-package gof.behavioral.cor_purchases;
+package gof.behavioral.chain_of_responsibility;
 
 public abstract class PurchasePower {
     static final double BASE = 500;

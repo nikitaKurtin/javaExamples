@@ -1,6 +1,6 @@
-package gof.behavioral.observer_property_changed.observers;
+package gof.behavioral.observer.observers;
 
-import gof.behavioral.observer_property_changed.observable.ObservableNumber;
+import gof.behavioral.observer.observable.ObservableNumber;
 
 public class PositiveObserver extends NumberObserver {
 

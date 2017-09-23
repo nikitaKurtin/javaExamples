@@ -1,8 +1,8 @@
-package gof.behavioral.observer_property_changed;
+package gof.behavioral.observer;
 
-import gof.behavioral.observer_property_changed.observable.ObservableNumber;
-import gof.behavioral.observer_property_changed.observers.DecimalObserver;
-import gof.behavioral.observer_property_changed.observers.PositiveObserver;
+import gof.behavioral.observer.observable.ObservableNumber;
+import gof.behavioral.observer.observers.DecimalObserver;
+import gof.behavioral.observer.observers.PositiveObserver;
 
 public class ObserverTest {
     public static void main(String[] args) {

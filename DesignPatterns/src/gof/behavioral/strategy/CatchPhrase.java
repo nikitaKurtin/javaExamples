@@ -1,4 +1,4 @@
-package gof.behavioral.strategy_catch_phrase;
+package gof.behavioral.strategy;
 
 public interface CatchPhrase {
     void sayPhrase();

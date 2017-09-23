@@ -1,7 +1,7 @@
-package gof.behavioral.strategy_catch_phrase;
+package gof.behavioral.strategy;
 
 
-import gof.behavioral.strategy_catch_phrase.phrases.YgrittePhrase;
+import gof.behavioral.strategy.phrases.YgrittePhrase;
 
 public class Fan {
     private CatchPhrase currentPhrase;

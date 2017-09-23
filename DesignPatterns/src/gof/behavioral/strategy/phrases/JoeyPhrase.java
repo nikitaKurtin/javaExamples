@@ -1,7 +1,7 @@
-package gof.behavioral.strategy_catch_phrase.phrases;
+package gof.behavioral.strategy.phrases;
 
 
-import gof.behavioral.strategy_catch_phrase.CatchPhrase;
+import gof.behavioral.strategy.CatchPhrase;
 
 public class JoeyPhrase implements CatchPhrase {
     @Override

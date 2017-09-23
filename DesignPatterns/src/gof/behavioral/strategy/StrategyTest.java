@@ -1,8 +1,8 @@
-package gof.behavioral.strategy_catch_phrase;
+package gof.behavioral.strategy;
 
 
-import gof.behavioral.strategy_catch_phrase.phrases.JoeyPhrase;
-import gof.behavioral.strategy_catch_phrase.phrases.YgrittePhrase;
+import gof.behavioral.strategy.phrases.JoeyPhrase;
+import gof.behavioral.strategy.phrases.YgrittePhrase;
 
 public class StrategyTest {
     public static void main(String[] args) {

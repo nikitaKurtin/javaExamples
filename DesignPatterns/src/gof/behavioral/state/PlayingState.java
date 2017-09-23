@@ -1,4 +1,4 @@
-package gof.behavioral.state_actions;
+package gof.behavioral.state;
 
 public class PlayingState implements State {
     @Override

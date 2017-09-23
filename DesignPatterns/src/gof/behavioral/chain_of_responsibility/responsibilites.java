@@ -1,4 +1,4 @@
-package gof.behavioral.cor_purchases;
+package gof.behavioral.chain_of_responsibility;
 
 class Manager extends PurchasePower {
 
