@@ -3,7 +3,7 @@ package gof.creational.Decorator_gun;
 public class WithLaser extends Gun {
     private Gun gun;
 
-    public WithLaser(Gun gun) {
+    WithLaser(Gun gun) {
         this.gun = gun;
     }
 
