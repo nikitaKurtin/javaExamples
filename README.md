@@ -29,21 +29,21 @@
 	
 1. 	Collections:
 	1. Generics [Generics](https://github.com/nikitaKurtin/javaExamples/tree/master/MyGens)
-	2. Collection interface and its common sub-classes: ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap 
+	2. Collection interface and its common sub-classes: `ArrayList`, `LinkedList`, `HashSet`, `TreeSe`t, `HashMap`, `TreeMap` 
 	3. Common conversions
 
 2. String manipulations:
-	1. Understanding java.lang.String class
-	2. Understanding java.lang.StringBuilder class
-	3. Understanding java.lang.StringBuffer class
+	1. Understanding `java.lang.String` class
+	2. Understanding `java.lang.StringBuilder` class
+	3. Understanding `java.lang.StringBuffe`r class
 	
 3. Regular Expressions
 	1. Quantifiers, predefined meta chars, patterns and symbols, capturing ,looks (positive & negative, ahead & behind)
 	2. Common usage: match, split, replace
 	
 4. Exception handling:
-	1. Throwable tree - hierarchy 
-	2. Error VS Exception
+	1. `Throwable` tree - hierarchy 
+	2. `Error` VS `Exception`
 	3. Checked VS Unchecked Exceptions
 	4. `try` blocks: try-catch, try-finally, try-catch-finally, multiple-catch, try with resources
 	5. Rethrowing concept
@@ -52,7 +52,7 @@
 5. Multi threading:
 	1. Concurrency VS parallelism
 	2. Process & thread
-	3. java.lang.Runnable & java.lang.Thread
+	3. `java.lang.Runnable` & `java.lang.Thread`
 	4. Thread handling
 	
 6. Enumeration:
@@ -62,8 +62,30 @@
 	4. Abstraction & Polymorphism: Interface implementation and nested methods delegation
 	
 7. Working with files
-	1. Understanding java.io.File class
+	1. Understanding `java.io.File` class
 	2. Working with streams (Input & Output)
-	3. Files.ReadAllBytes VS FileInputStream VS BufferedReader
+	3. `Files.ReadAllBytes` VS `FileInputStream` VS `BufferedReader`
 	
+8. Working with XML
+	1. Understanding `javax.xml` and `and org.w3c.dom` packages and their classes
+	2. Reading, writing and manipulating XML documents
+	3. Load XML from remote server
+	
+9. Working with JSON
+	1. Understanding `org.json` 
+	2. Reading, writing and manipulating JSON documents
+	3. Load JSON from remote server
+
+10. Networking
+	1. HTTP client
+	2. HTTP server
+
+11. Java DataBase Connection (JDBC) with MySQL
+	1. Establishing connection
+	2. How to work with prepared statements
+	3. Basic CRUD Operations
+	4. Joins & Unions
+	
+
+
 	
