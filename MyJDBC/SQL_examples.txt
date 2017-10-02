@@ -1,0 +1,112 @@
+/**************************************
+			SQL commands
+**************************************/
+-- 1) Creation examples:
+-- 1.1)
+CREATE DATABASE hungries;
+
+-- 1.2)
+CREATE DATABASE `hungry_devs`;
+
+-- 1.3)
+CREATE TABLE cars (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(10));
+
+-- 1.4)
+CREATE TABLE IF NOT EXISTS users (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(10) NOT NULL, age INT(3) DEFAULT 0);
+
+-- 1.5)
+INSERT INTO users (name, age) VALUES ('Ronen', 30);
+
+-- 1.6)
+INSERT INTO users (name, age) VALUES ('Nastya', 20), ('Yair', 25), ('Bubu', 99);
+
+-- 2) Read examples:
+-- 2.1)
+SHOW DATABASES;
+
+-- 2.2)
+SHOW TABLES;
+
+-- 2.3)
+SELECT * FROM tbl_name;
+
+-- 2.4)
+SELECT 'Nikita';
+
+-- 2.5) 
+SELECT 'Nikita' AS name;
+
+-- 2.6)
+SELECT column_name FROM tbl_name;
+
+-- 2.7)
+SELECT name, price*quantity AS `total_price` FROM tbl_name;
+
+-- 2.8)
+SELECT users.name, cars.name FROM users, cars WHERE users.id = cars.owner_id;
+
+-- 2.9)
+SELECT users.name, cars.name FROM users INNER JOIN cars ON users.id = cars.owner_id;
+
+-- 2.10)
+SELECT users.name, cars.name FROM users JOIN cars ON users.id = cars.owner_id;
+
+-- 2.11)
+SELECT users.name, cars.name FROM users LEFT JOIN cars ON users.id = cars.owner_id;
+
+-- 2.12)
+SELECT users.name, cars.name FROM users RIGHT JOIN cars ON users.id = cars.owner_id;
+
+-- 2.13)
+SELECT name FROM users UNION SELECT 'another user';
+
+-- 2.14)
+SELECT 'Dana' AS name UNION SELECT 'Nastya';
+
+-- 2.15)
+SELECT users.name, cars.name FROM users RIGHT JOIN cars ON users.id = cars.owner_id UNION SELECT users.name, cars.name FROM users LEFT JOIN cars ON users.id = cars.owner_id;
+
+-- 3) Update examples
+-- 3.1)
+UPDATE tbl_name SET column_name = 'value';
+
+-- 3.2)
+UPDATE tbl_name SET column_name = 'value' WHERE id = 1;
+
+-- 3.3)
+UPDATE tbl_name SET column_name = 'value' WHERE id >= 2 AND id <= 4;
+
+-- 3.4)
+UPDATE tbl_name SET column_name = 'value' WHERE id BETWEEN 2 AND 4;
+
+-- 3.5)
+ALTER TABLE tbl_name ADD COLUMN (column_name INT(3) NOT NULL DEFAULT 0);
+
+-- 3.6)
+ALTER TABLE tbl_name ADD INDEX (column_name);
+
+-- 3.7)
+ALTER TABLE tbl_name MODIFY COLUMN column_name INT(5) NOT NULL DEFAULT 1;
+
+-- 4) Delete examples
+-- 4.1)
+DROP TABLE tbl_name;
+
+-- 4.2)
+DROP TABLE IF EXISTS tbl_name;
+
+-- 4.3)
+DROP DATABASE db_name;
+
+-- 4.4)
+DELETE FROM tbl_name WHERE column_name = 'value';
+
+-- 4.5)
+DELETE FROM tbl_name;
+
+-- 5) Useful examples:)
+-- 5.1)
+USE db_name;
+-- 5.2)
+DESC tbl_name;
+ 
