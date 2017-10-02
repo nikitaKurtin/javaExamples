@@ -1,0 +1,16 @@
+<map>
+	<movie>Dr. Strange</movie>
+	<movie>Sully</movie>
+	<movie>Masterminds</movie>
+	<language>HTML</language>
+	<language>CSS</language>
+	<language>JavaScript</language>
+	<language>Java</language>
+	<language>Regex</language>
+	<language>XML</language>
+	<food>Shnitzel</food>
+	<food>Phalaphel</food>
+	<food>Sandwich</food>
+	<food>Ice Cream</food>
+	<food>Pizza</food>
+</map>

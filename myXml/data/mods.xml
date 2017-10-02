@@ -1,0 +1,10 @@
+<mods>
+	<mod>Adds 10 to 30 Cold Damage to Curses</mod>
+	<mod>Curse Enemies with Vulnerability on level : 30</mod>
+	<mod>Chance to Avoid Cold Damage when Hit : (6-8)%</mod>
+	<mod>Chance to Avoid Fire Damage when Hit : (3-7)%</mod>
+	<mod>Adds 8 to 32 Physical Damage to Weapon</mod>
+	<mod>Chance to Avoid Chaos Damage when Hit : (6-7)%</mod>
+	<mod bubu="my text is: ">Adds 40 to 20 Cold Damage to Curses</mod>
+	<mod>Adds 10 to 30 Fire Damage to Spells</mod>
+</mods>
